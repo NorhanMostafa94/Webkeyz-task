@@ -1,0 +1,16 @@
+.btn {
+    transition: 0.3s ease-out 0s;
+    border: 0 !important;
+    outline: none;
+    border-radius: 0 !important;
+    color: $color-white !important;
+
+    &--primary {
+        background-color: $color-primary !important;
+    }
+
+    &--rectangle {
+        background-color: $color-primary !important;
+        padding: 10px 20px !important;
+    }
+}

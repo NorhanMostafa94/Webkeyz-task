@@ -1,0 +1,12 @@
+.card-text {
+    background-color: $color-dark-alpha;
+    padding: 2rem 3rem !important;
+
+    &__title {
+        color: $color-white;
+    }
+
+    &__paragraph {
+        opacity: 0.7;
+    }
+}

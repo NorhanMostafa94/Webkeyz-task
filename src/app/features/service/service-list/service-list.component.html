@@ -1,0 +1,14 @@
+<div class="container mt-5">
+    <div class="row justify-content-center mb-5">
+        <form class="form-inline" [formGroup]="addServiceForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <input class="form-control" formControlName="serviceName" type="text" placeholder="Service name">
+            </div>
+            <button class="btn btn--primary">Add</button>
+        </form>
+    </div>
+    <div class="row">
+        <service-item class="col-lg-3 col-md-4 col-sm-1" *ngFor="let service of data" [service]="service">
+        </service-item>
+    </div>
+</div>

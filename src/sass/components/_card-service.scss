@@ -1,0 +1,9 @@
+.card-service {
+    color: $color-primary;
+    text-align: center;
+    box-shadow: 0 -2px 6px 0 $color-primary-alpha, 0 3px 10px 0$color-primary-alpha;
+    overflow: hidden;
+    &__text{
+        white-space: nowrap;
+    }
+}

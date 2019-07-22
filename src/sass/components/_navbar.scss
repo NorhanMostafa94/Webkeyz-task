@@ -1,0 +1,23 @@
+.navbar {
+    background-color: $color-dark-alpha;
+    padding: 0 !important;
+
+    .navbar-brand {
+        img {
+            width: 200px;
+        }
+    }
+
+    .navbar-toggler {
+    color: #404044 !important;
+}
+
+    li.nav-item {
+        padding: 10px 22px;
+        text-transform: uppercase;
+
+        a {
+            color: $color-white;
+        }
+    }
+}

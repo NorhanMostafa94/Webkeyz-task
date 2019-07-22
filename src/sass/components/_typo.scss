@@ -1,0 +1,27 @@
+.typo {
+    color: $color-white;
+    text-transform: uppercase;
+
+    &__regular {
+        font-family: 'SF UI Display Medium';
+        line-height: 4rem;
+        margin-left: 3rem;
+    }
+
+    &__bold {
+        font-family: 'SF UI Display Bold';
+        line-height: 0.3rem;
+        margin-left: 4rem;
+    }
+
+    &__heavy {
+        font-family: 'SF UI Display Heavy';
+        line-height: 0.3rem;
+        margin-left: 8rem;
+    }
+
+    &__black {
+        font-family: 'SF UI Display Black';
+        line-height: 5rem;
+    }
+}
