@@ -1,9 +1,18 @@
 .card-service {
-    color: $color-primary;
-    text-align: center;
+    position: relative;
     box-shadow: 0 -2px 6px 0 $color-primary-alpha, 0 3px 10px 0$color-primary-alpha;
     overflow: hidden;
-    &__text{
+
+    &__text {
+        text-align: center;
+        color: $color-primary;
         white-space: nowrap;
+    }
+
+    &__deleteicon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: red !important;
     }
 }
