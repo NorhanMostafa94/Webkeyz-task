@@ -9,8 +9,9 @@
     }
 
     .navbar-toggler {
-    color: #404044 !important;
-}
+        color: $color-primary !important;
+        border: 2px solid $color-primary;
+    }
 
     li.nav-item {
         padding: 10px 22px;
